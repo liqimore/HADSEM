@@ -10,4 +10,6 @@ public class HadsemApplication {
 		SpringApplication.run(HadsemApplication.class, args);
 	}
 
+
+
 }
