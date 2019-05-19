@@ -109,14 +109,6 @@
         <connection>scm:git:https://github.com/xuxueli/xxl-crawler.git</connection>
         <developerConnection>scm:git:git@github.com:xuxueli/xxl-crawler.git</developerConnection>
     </scm>
-    <developers>
-        <developer>
-            <id>XXL</id>
-            <name>xuxueli</name>
-            <email>931591021@qq.com</email>
-            <url>https://github.com/xuxueli</url>
-        </developer>
-    </developers>
 
     <profiles>
 

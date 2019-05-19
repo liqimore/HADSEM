@@ -61,7 +61,7 @@ public class CrawlerThread implements Runnable {
                 crawler.tryFinish();
                 String link = crawler.getRunData().getUrl();
                 running = true;
-                logger.info(">>>>>>>>>>> xxl crawler, process link : {}", link);
+                logger.info(">>>>>>>>>>> Q-Search System crawler, process link : {}", link);
                 if (!UrlUtil.isUrl(link)) {
                     continue;
                 }
