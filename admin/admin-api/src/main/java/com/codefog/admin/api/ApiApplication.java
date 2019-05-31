@@ -19,7 +19,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
  */
 @EnableCaching
 @SpringBootApplication
-@EnableAutoConfiguration
+//@EnableAutoConfiguration
 @ComponentScan(basePackages = "com.codefog.admin")
 @EntityScan(basePackages="com.codefog.admin.bean.entity")
 @EnableJpaRepositories(basePackages= "com.codefog.admin.dao")
