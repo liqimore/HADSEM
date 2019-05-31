@@ -9,7 +9,6 @@ import org.jsoup.nodes.Element;
 /**
  * 爬虫示例06：分布式爬虫示例
  *
- * @author xuxueli 2018-02-08 16:56:46
  */
 public class XxlCrawlerTest06 {
 

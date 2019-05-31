@@ -13,7 +13,6 @@ import java.util.*;
 /**
  * jsoup tool test
  *
- * @author xuxueli 2017-10-09 17:47:13
  */
 public class JsoupUtilTest {
     private static Logger logger = LoggerFactory.getLogger(JsoupUtilTest.class);

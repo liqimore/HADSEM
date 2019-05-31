@@ -20,9 +20,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * Created  on 2018/4/9 0009.
  * 系统参数
- * @author enilu
  */
 @RestController
 @RequestMapping("/task")

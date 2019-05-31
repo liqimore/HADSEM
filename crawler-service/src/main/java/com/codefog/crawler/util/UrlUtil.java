@@ -3,7 +3,6 @@ package com.codefog.crawler.util;
 /**
  * url tool
  *
- * @author xuxueli 2017-10-10 14:57:05
  */
 public class UrlUtil {
 

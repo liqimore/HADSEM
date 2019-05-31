@@ -8,7 +8,6 @@ import java.io.*;
 /**
  * io util
  *
- * @author xuxueli 2017-11-08 13:22:58
  */
 public class IOUtil {
     private static Logger logger = LoggerFactory.getLogger(IOUtil.class);

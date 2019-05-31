@@ -3,7 +3,6 @@ package com.codefog.crawler.rundata;
 /**
  * run data
  *
- * @author xuxueli 2017-12-14 11:40:50
  */
 public abstract class RunData {
 

@@ -15,7 +15,6 @@ import org.slf4j.LoggerFactory;
  * 爬虫示例07：JS渲染方式采集数据，"htmlUnit" 方案
  * (仅供学习测试使用，如有侵犯请联系删除； )
  *
- * @author xuxueli 2017-12-29 23:29:48
  */
 public class XxlCrawlerTest07 {
     private static Logger logger = LoggerFactory.getLogger(XxlCrawlerTest05.class);

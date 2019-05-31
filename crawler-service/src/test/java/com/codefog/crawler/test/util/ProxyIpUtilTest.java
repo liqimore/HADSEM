@@ -8,7 +8,6 @@ import java.net.Proxy;
 /**
  * proxy ip util test
  *
- * @author xuxueli 2017-11-08 13:35:16
  */
 public class ProxyIpUtilTest {
 

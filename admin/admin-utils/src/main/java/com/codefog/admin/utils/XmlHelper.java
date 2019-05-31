@@ -22,9 +22,6 @@ import java.io.StringReader;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Created by huan on 2017/1/7.
- */
 public class XmlHelper {
 
     private final XPath path;

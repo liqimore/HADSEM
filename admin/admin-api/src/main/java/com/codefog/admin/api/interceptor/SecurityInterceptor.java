@@ -16,9 +16,6 @@ import java.io.IOException;
 /**
  * 安全校验拦截器<br>
  * 判断非登录请求,将其定位置登录页面
- * @version 2018-07-24
- *
- * @author eniluzt
  */
 @Component
 public class SecurityInterceptor implements HandlerInterceptor {

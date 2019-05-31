@@ -7,9 +7,6 @@ import java.util.List;
 
 /**
  * Node
- *
- * @author enilu
- * @version 2018/11/24 0024
  */
 @Data
 public class Node {

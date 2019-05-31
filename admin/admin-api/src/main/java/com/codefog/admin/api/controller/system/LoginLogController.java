@@ -21,8 +21,6 @@ import java.util.List;
 /**
  * LoginLogController
  *
- * @author enilu
- * @version 2018/10/5 0005
  */
 @RestController
 @RequestMapping("/loginLog")

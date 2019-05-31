@@ -24,7 +24,6 @@ import java.util.Map;
 /**
  * htmlunit page loader
  *
- * @author xuxueli 2018-02-06 19:41:39
  */
 public class HtmlUnitPageLoader extends PageLoader {
     private static Logger logger = LoggerFactory.getLogger(HtmlUnitPageLoader.class);

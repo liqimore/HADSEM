@@ -10,9 +10,7 @@ import org.springframework.core.io.ClassPathResource;
 
 /**
  * 加载ehcache缓存配置<br>
- * @version 2018-07-24
  *
- * @author enilu
  *
  */
 @Configuration

@@ -21,11 +21,6 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-/**
- * Created  on 2018/3/26 0026.
- *
- * @author enilu
- */
 @Service
 public class LoginLogService {
 

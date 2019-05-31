@@ -3,8 +3,6 @@ package com.codefog.admin.bean.exception;
 /**
  * 封装guns的异常
  *
- * @author fengshuonan
- * @Date 2017/12/28 下午10:32
  */
 public class GunsException extends RuntimeException {
 

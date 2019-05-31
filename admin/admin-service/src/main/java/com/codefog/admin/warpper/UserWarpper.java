@@ -9,8 +9,6 @@ import java.util.Map;
 /**
  * 用户管理的包装类
  *
- * @author fengshuonan
- * @date 2017年2月13日 下午10:47:03
  */
 public class UserWarpper extends BaseControllerWarpper {
 

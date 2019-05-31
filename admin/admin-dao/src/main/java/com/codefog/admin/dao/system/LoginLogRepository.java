@@ -8,11 +8,6 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.transaction.annotation.Transactional;
 
-/**
- * Created  on 2018/3/21 0021.
- *
- * @author enilu
- */
 public interface LoginLogRepository extends PagingAndSortingRepository<LoginLog,Long>
         ,JpaRepository<LoginLog,Long>,JpaSpecificationExecutor<LoginLog> {
     @Modifying

@@ -4,7 +4,6 @@ import java.util.Date;
 
 /**
  * 封装java.util.Date
- * @author xiaoleilu
  *
  */
 public class DateTime extends Date{

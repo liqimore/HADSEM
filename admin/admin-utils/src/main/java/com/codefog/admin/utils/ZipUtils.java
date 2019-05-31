@@ -11,8 +11,7 @@ import java.util.zip.ZipOutputStream;
 
 /**
  * 压缩和解压缩
- * 
- * @author
+ *
  * */
 public class ZipUtils {
 	/**

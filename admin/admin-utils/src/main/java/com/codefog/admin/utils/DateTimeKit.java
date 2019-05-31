@@ -11,7 +11,6 @@ import java.util.Locale;
 
 /**
  * 时间工具类
- * @author xiaoleilu
  */
 public class DateTimeKit {
 	/** 毫秒 */
@@ -609,8 +608,6 @@ public class DateTimeKit {
 	/**
 	 * 计时器<br>
 	 * 计算某个过程话费的时间，精确到毫秒
-	 * 
-	 * @author Looly
 	 *
 	 */
 	public static class Timer {

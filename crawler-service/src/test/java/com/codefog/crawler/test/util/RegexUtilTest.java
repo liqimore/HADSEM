@@ -6,8 +6,6 @@ import org.junit.Test;
 
 /**
  * regex tool test
- *
- * @author xuxueli 2017-10-10 15:30:29
  */
 public class RegexUtilTest {
 

@@ -7,7 +7,6 @@ import java.lang.annotation.*;
  *
  * 页面数据对象 注解
  *
- * @author xuxueli 2017-10-17 20:28:11
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)

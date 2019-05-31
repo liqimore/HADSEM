@@ -13,8 +13,6 @@ import java.util.Map;
 /**
  * 对比两个对象的变化的工具类
  *
- * @author fengshuonan
- * @Date 2017/3/31 10:36
  */
 public class Contrast {
 
@@ -24,8 +22,6 @@ public class Contrast {
     /**
      * 比较两个对象,并返回不一致的信息
      *
-     * @author stylefeng
-     * @Date 2017/5/9 19:34
      */
     public static String contrastObj(Object pojo1, Object pojo2) {
         String str = "";
@@ -64,8 +60,6 @@ public class Contrast {
     /**
      * 比较两个对象pojo1和pojo2,并输出不一致信息
      *
-     * @author stylefeng
-     * @Date 2017/5/9 19:34
      */
     public static String contrastObj(Class dictClass, String key, Object pojo1, Map<String, String> pojo2) throws IllegalAccessException, InstantiationException {
         AbstractDictMap dictMap = (AbstractDictMap) dictClass.newInstance();
@@ -115,8 +109,6 @@ public class Contrast {
     /**
      * 比较两个对象pojo1和pojo2,并输出不一致信息
      *
-     * @author stylefeng
-     * @Date 2017/5/9 19:34
      */
     public static String contrastObjByName(Class dictClass, String key, Object pojo1, Map<String, String> pojo2) throws IllegalAccessException, InstantiationException {
         AbstractDictMap dictMap = (AbstractDictMap) dictClass.newInstance();
@@ -177,8 +169,6 @@ public class Contrast {
     /**
      * 解析多个key(逗号隔开的)
      *
-     * @author stylefeng
-     * @Date 2017/5/16 22:19
      */
     public static String parseMutiKey(AbstractDictMap dictMap, String key, Map<String, String> requests) {
         StringBuilder sb = new StringBuilder();

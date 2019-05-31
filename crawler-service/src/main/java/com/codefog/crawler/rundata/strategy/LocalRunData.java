@@ -14,7 +14,6 @@ import java.util.concurrent.LinkedBlockingQueue;
 /**
  * lcoal run data
  *
- * @author xuxueli 2017-12-14 11:42:23
  */
 public class LocalRunData extends RunData {
     private static Logger logger = LoggerFactory.getLogger(LocalRunData.class);

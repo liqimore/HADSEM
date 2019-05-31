@@ -8,8 +8,6 @@ import java.util.List;
 /**
  * DeptNode
  *
- * @author enilu
- * @version 2018/9/15 0015
  */
 public class DeptNode extends Dept {
 

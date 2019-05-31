@@ -17,11 +17,6 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
-/**
- *  xxl crawler
- *
- *  Created by xuxueli on 2015-05-14 22:44:43
- */
 public class XxlCrawler {
     private static Logger logger = LoggerFactory.getLogger(XxlCrawler.class);
 

@@ -7,7 +7,6 @@ import org.junit.Test;
 /**
  * page downloader test
  *
- * @author xuxueli 2017-10-09 17:47:13
  */
 public class FileUtilTest {
 

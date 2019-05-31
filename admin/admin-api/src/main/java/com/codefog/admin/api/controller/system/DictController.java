@@ -24,8 +24,6 @@ import java.util.List;
 /**
  * DictController
  *
- * @author enilu
- * @version 2018/11/17 0017
  */
 @RestController
 @RequestMapping("/dict")

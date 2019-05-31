@@ -8,11 +8,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-/**
- * Created  on 2018/3/21 0021.
- *
- * @author enilu
- */
 public interface MenuRepository extends PagingAndSortingRepository<Menu,Long> {
     Menu findByCode(String code);
     List<Menu> findByPcodesLike(String code);

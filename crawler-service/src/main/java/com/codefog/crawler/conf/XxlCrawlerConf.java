@@ -1,10 +1,5 @@
 package com.codefog.crawler.conf;
 
-/**
- * xxl craw conf
- *
- * @author xuxueli 2017-10-31 11:55:32
- */
 public class XxlCrawlerConf {
 
     // userAgent

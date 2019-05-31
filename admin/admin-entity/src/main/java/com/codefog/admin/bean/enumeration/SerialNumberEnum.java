@@ -1,7 +1,6 @@
 package com.codefog.admin.bean.enumeration;
 
 /**
- * Created by deanyule on 17/4/13.
  * 系统各种编号枚举
  */
 public enum SerialNumberEnum {

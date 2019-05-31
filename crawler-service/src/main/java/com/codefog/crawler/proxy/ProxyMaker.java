@@ -7,7 +7,6 @@ import java.util.concurrent.CopyOnWriteArrayList;
 /**
  * proxy macker
  *
- * @author xuxueli 2017-11-07 19:52:33
  */
 public abstract class ProxyMaker {
 

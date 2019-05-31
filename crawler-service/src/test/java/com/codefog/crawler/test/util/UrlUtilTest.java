@@ -7,7 +7,6 @@ import org.junit.Test;
 /**
  * url tool test
  *
- * @author xuxueli 2017-10-10 14:58:21
  */
 public class UrlUtilTest {
 

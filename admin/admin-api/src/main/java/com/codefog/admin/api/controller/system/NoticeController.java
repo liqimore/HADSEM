@@ -14,8 +14,6 @@ import java.util.List;
 /**
  * NoticeController
  *
- * @author enilu
- * @version 2018/12/17 0017
  */
 @RestController
 @RequestMapping("/notice")

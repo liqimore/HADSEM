@@ -6,11 +6,6 @@ import org.hibernate.annotations.CreationTimestamp;
 import javax.persistence.*;
 import java.util.Date;
 
-/**
- * Created  on 2018/4/2 0002.
- *
- * @author enilu
- */
 @Entity
 @Table(name = "t_sys_login_log")
 @Data

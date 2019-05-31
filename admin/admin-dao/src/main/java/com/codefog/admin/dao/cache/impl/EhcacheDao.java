@@ -11,8 +11,6 @@ import java.io.Serializable;
 /**
  * EhcacheDao
  *
- * @author enilu
- * @version 2018/9/12 0012
  */
 @Component
 public class EhcacheDao implements CacheDao {

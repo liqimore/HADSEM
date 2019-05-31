@@ -8,7 +8,6 @@ import java.util.Random;
 /**
  * proxy macker, rancom strategy
  *
- * @author xuxueli 2017-11-07 20:06:54
  */
 public class RandomProxyMaker extends ProxyMaker {
 

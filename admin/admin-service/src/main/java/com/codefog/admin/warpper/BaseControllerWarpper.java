@@ -6,8 +6,6 @@ import java.util.Map;
 /**
  * 控制器查询结果的包装类基类
  *
- * @author fengshuonan
- * @date 2017年2月13日 下午10:49:36
  */
 public abstract class BaseControllerWarpper {
 

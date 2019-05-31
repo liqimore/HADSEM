@@ -14,7 +14,6 @@ import java.net.Proxy;
  * 爬虫示例04：爬取页面，代理IP方式
  * (免费代理可搜索获取，免费代理不稳定可以多试几个；仅供学习测试使用，如有侵犯请联系删除； )
  *
- * @author xuxueli 2017-10-09 19:48:48
  */
 public class XxlCrawlerTest04 {
 

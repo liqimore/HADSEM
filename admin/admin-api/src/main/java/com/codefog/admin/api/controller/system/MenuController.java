@@ -30,9 +30,7 @@ import java.util.List;
 
 /**
  * MenuController
- *
- * @author enilu
- * @version 2018/9/12 0012
+ *2
  */
 @RestController
 @RequestMapping("/menu")

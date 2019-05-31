@@ -4,8 +4,6 @@ import com.codefog.crawler.util.IOUtil;
 
 /**
  * io util test
- *
- * @author xuxueli 2017-11-08 13:33:04
  */
 public class IOUtilTest {
 

@@ -5,8 +5,6 @@ import com.codefog.admin.bean.dictmap.base.AbstractDictMap;
 /**
  * 通知的映射
  *
- * @author fengshuonan
- * @date 2017-05-06 15:01
  */
 public class NoticeMap extends AbstractDictMap {
 

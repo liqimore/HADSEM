@@ -19,11 +19,6 @@ import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
 import java.util.*;
 
-/**
- * Created  on 2018/3/23 0023.
- *
- * @author enilu
- */
 @Service
 public class UserService {
     @Autowired

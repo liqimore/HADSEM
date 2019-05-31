@@ -10,8 +10,6 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * BootStrap Table默认的分页参数创建
  *
- * @author fengshuonan
- * @date 2017-04-05 22:25
  */
 public class PageFactory<T> {
 

@@ -12,7 +12,6 @@ import java.util.List;
 
 /**
  * api request field, reflect util
- * @author xuxueli 2017-05-26
  */
 public final class FieldReflectionUtil {
 

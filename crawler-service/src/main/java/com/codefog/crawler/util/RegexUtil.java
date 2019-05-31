@@ -5,7 +5,6 @@ import java.util.regex.Pattern;
 /**
  * regex tool
  *
- * @author xuxueli 2015-5-12 23:57:48
  */
 public class RegexUtil {
 

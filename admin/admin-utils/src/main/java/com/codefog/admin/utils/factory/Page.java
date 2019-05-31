@@ -7,11 +7,6 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created  on 2018/3/22 0022.
- *
- * @author enilu
- */
 public class Page<T>  {
     /**
      * 该操作只是为了忽略RowBounds属性

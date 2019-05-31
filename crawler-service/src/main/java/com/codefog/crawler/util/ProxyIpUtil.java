@@ -12,7 +12,6 @@ import java.net.URL;
 /**
  * proxy ip util
  *
- * @author xuxueli 2017-11-08 13:06:55
  */
 public class ProxyIpUtil {
     private static Logger logger = LoggerFactory.getLogger(ProxyIpUtil.class);

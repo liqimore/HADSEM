@@ -8,8 +8,6 @@ import java.util.Map;
 /**
  * 角色列表的包装类
  *
- * @author fengshuonan
- * @date 2017年2月19日10:59:02
  */
 public class RoleWarpper extends BaseControllerWarpper {
 

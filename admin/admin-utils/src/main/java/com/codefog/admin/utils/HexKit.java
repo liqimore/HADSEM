@@ -8,8 +8,7 @@ import java.nio.charset.Charset;
  * 像java,c这样的语言为了区分十六进制和十进制数值,会在十六进制数的前面加上 0x,比如0x20是十进制的32,而不是十进制的20<br>
  * 
  * 参考：https://my.oschina.net/xinxingegeya/blog/287476
- * 
- * @author Looly
+ *
  *
  */
 public class HexKit {

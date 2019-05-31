@@ -9,11 +9,6 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 
 import java.util.List;
 
-/**
- * Created  on 2018/3/21 0021.
- *
- * @author enilu
- */
 public interface RoleRepository extends PagingAndSortingRepository<Role,Long>, JpaRepository<Role,Long>,JpaSpecificationExecutor<Role> {
     @Query(nativeQuery = true,value = "SELECT id, pId, NAME, ( CASE WHEN (pId = 0 OR pId IS NULL) THEN 'true' ELSE 'false' END ) OPEN FROM t_sys_role")
     List roleTreeList();

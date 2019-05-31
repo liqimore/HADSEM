@@ -9,11 +9,6 @@ import javax.persistence.Entity;
 import javax.persistence.EntityListeners;
 import javax.persistence.Table;
 
-/**
- * Created  on 2018/4/2 0002.
- *
- * @author enilu
- */
 @Entity
 @Table(name = "t_sys_notice")
 @Data

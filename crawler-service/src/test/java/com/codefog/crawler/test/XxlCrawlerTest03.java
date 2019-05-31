@@ -16,7 +16,6 @@ import java.util.Set;
 /**
  * 爬虫示例03：爬取页面，下载图片文件
  *
- * @author xuxueli 2017-10-09 19:48:48
  */
 public class XxlCrawlerTest03 {
 

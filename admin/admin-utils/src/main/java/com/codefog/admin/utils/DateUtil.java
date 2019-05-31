@@ -140,7 +140,6 @@ public class DateUtil {
 	 * @param e
 	 * @return boolean
 	 * @throws
-	 * @author luguosui
 	 */
 	public static boolean compareDate(String s, String e) {
 		if (parseDate(s) == null || parseDate(e) == null) {
@@ -261,7 +260,6 @@ public class DateUtil {
 	 * @param beginDateStr
 	 * @param endDateStr
 	 * @return long
-	 * @author Administrator
 	 */
 	public static long getDaySub(String beginDateStr, String endDateStr) {
 		long day = 0;

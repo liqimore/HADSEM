@@ -33,8 +33,6 @@ public class ToolUtil {
     /**
      * 获取随机位数的字符串
      *
-     * @author fengshuonan
-     * @Date 2017/8/24 14:09
      */
     public static String getRandomString(int length) {
         String base = "abcdefghijklmnopqrstuvwxyz0123456789";
@@ -50,8 +48,6 @@ public class ToolUtil {
     /**
      * 判断一个对象是否是时间类型
      *
-     * @author stylefeng
-     * @Date 2017/4/18 12:55
      */
     public static String dateType(Object o) {
         if (o instanceof Date) {
@@ -64,9 +60,6 @@ public class ToolUtil {
     /**
      * 获取异常的具体信息
      *
-     * @author fengshuonan
-     * @Date 2017/3/30 9:21
-     * @version 2.0
      */
     public static String getExceptionMsg(Exception e) {
         StringWriter sw = new StringWriter();
@@ -481,8 +474,6 @@ public class ToolUtil {
     /**
      * 当前时间
      *
-     * @author stylefeng
-     * @Date 2017/5/7 21:56
      */
     public static String currentTime() {
         return DateUtil.getTime();
@@ -491,8 +482,6 @@ public class ToolUtil {
     /**
      * 首字母大写
      *
-     * @author stylefeng
-     * @Date 2017/5/7 22:01
      */
     public static String firstLetterToUpper(String val) {
         return StrKit.firstCharToUpperCase(val);
@@ -501,8 +490,6 @@ public class ToolUtil {
     /**
      * 首字母小写
      *
-     * @author stylefeng
-     * @Date 2017/5/7 22:02
      */
     public static String firstLetterToLower(String val) {
         return StrKit.firstCharToLowerCase(val);
@@ -511,8 +498,6 @@ public class ToolUtil {
     /**
      * 判断是否是windows操作系统
      *
-     * @author stylefeng
-     * @Date 2017/5/24 22:34
      */
     public static Boolean isWinOs() {
         String os = System.getProperty("os.name");
@@ -526,8 +511,6 @@ public class ToolUtil {
     /**
      * 获取临时目录
      *
-     * @author stylefeng
-     * @Date 2017/5/24 22:35
      */
     public static String getTempPath() {
         return System.getProperty("java.io.tmpdir");
@@ -536,8 +519,6 @@ public class ToolUtil {
     /**
      * 把一个数转化为int
      *
-     * @author fengshuonan
-     * @Date 2017/11/15 下午11:10
      */
     public static Integer toInt(Object val) {
         if (val instanceof Double) {

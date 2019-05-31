@@ -15,7 +15,6 @@ import org.slf4j.LoggerFactory;
  * 爬虫示例08：JS渲染方式采集数据，"selenisum + phantomjs" 方案
  * (仅供学习测试使用，如有侵犯请联系删除； )
  *
- * @author xuxueli 2018-10-16
  */
 public class XxlCrawlerTest08 {
     private static Logger logger = LoggerFactory.getLogger(XxlCrawlerTest05.class);

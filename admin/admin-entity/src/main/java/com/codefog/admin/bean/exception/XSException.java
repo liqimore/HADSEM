@@ -3,7 +3,6 @@ package com.codefog.admin.bean.exception;
 /**
  * 定义通用异常
  * code 存储异常代码
- * @author czhou
  */
 public class XSException extends Exception {
 

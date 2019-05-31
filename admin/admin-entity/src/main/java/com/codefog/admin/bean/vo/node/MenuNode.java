@@ -7,9 +7,7 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- * @author fengshuonan
  * @Description 菜单的节点
- * @date 2016年12月6日 上午11:34:17
  */
 public class MenuNode implements Comparable {
 
@@ -216,7 +214,6 @@ public class MenuNode implements Comparable {
     /**
      * 构建整个菜单树
      *
-     * @author fengshuonan
      */
     public void buildNodeTree(List<MenuNode> nodeList) {
         for (MenuNode treeNode : nodeList) {
@@ -230,7 +227,6 @@ public class MenuNode implements Comparable {
     /**
      * 查询子节点的集合
      *
-     * @author fengshuonan
      */
     public List<MenuNode> findChildNodes(List<MenuNode> nodeList, Long parentId) {
         if (nodeList == null && parentId == null)
@@ -247,8 +243,6 @@ public class MenuNode implements Comparable {
 
     /**
      * 遍历一个节点的子节点
-     *
-     * @author fengshuonan
      */
     public void recursionFn(List<MenuNode> nodeList, MenuNode node, Long pId) {
         List<MenuNode> childList = getChildList(nodeList, node);// 得到子节点列表
@@ -271,7 +265,6 @@ public class MenuNode implements Comparable {
     /**
      * 得到子节点列表
      *
-     * @author fengshuonan
      */
     private List<MenuNode> getChildList(List<MenuNode> list, MenuNode node) {
         List<MenuNode> nodeList = new ArrayList<MenuNode>();
@@ -288,7 +281,6 @@ public class MenuNode implements Comparable {
     /**
      * 清除掉按钮级别的资源
      *
-     * @date 2017年2月19日 下午11:04:11
      */
     public static List<MenuNode> clearBtn(List<MenuNode> nodes) {
         ArrayList<MenuNode> noBtns = new ArrayList<MenuNode>();
@@ -303,7 +295,6 @@ public class MenuNode implements Comparable {
     /**
      * 清除所有二级菜单
      *
-     * @date 2017年2月19日 下午11:18:19
      */
     public static List<MenuNode> clearLevelTwo(List<MenuNode> nodes) {
         ArrayList<MenuNode> results = new ArrayList<MenuNode>();
@@ -319,7 +310,6 @@ public class MenuNode implements Comparable {
     /**
      * 构建菜单列表
      *
-     * @date 2017年2月19日 下午11:18:19
      */
     public static List<MenuNode> buildTitle(List<MenuNode> nodes) {
 

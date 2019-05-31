@@ -10,11 +10,6 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 
 import javax.transaction.Transactional;
 
-/**
- * Created  on 2018/3/21 0021.
- *
- * @author enilu
- */
 public interface OperationLogRepository extends PagingAndSortingRepository<OperationLog,Long>
         ,JpaSpecificationExecutor<OperationLog>
         ,JpaRepository<OperationLog,Long> {

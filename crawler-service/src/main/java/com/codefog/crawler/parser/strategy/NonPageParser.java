@@ -6,8 +6,6 @@ import org.jsoup.nodes.Element;
 
 /**
  * non page parser
- *
- * @author xuxueli 2018-10-17
  */
 public abstract class NonPageParser extends PageParser {
 

@@ -19,8 +19,6 @@ import java.net.URLDecoder;
 /**
  * 基础controller
  *
- * @author enilu
- * @version 2018-07-25
  */
 public class BaseController {
     private static Logger logger = LoggerFactory.getLogger(BaseController.class);

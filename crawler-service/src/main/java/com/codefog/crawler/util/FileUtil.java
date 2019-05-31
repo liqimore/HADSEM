@@ -12,7 +12,6 @@ import java.net.URLConnection;
 /**
  * page downloader
  *
- * @author xuxueli 2015-05-14 22:44:43
  */
 public class FileUtil {
 	private static Logger logger = LoggerFactory.getLogger(FileUtil.class);

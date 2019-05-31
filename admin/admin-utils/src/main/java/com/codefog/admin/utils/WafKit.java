@@ -20,8 +20,6 @@ import java.util.regex.Pattern;
 /**
  * Web防火墙工具类
  * <p>
- * @author   hubin
- * @Date	 2014-5-8 	 
  */
 public class WafKit {
 

@@ -9,7 +9,6 @@ import java.lang.annotation.*;
  *
  * 页面数据对象的属性信息 （支持基础数据类型 T ，包括 List<T>）
  *
- * @author xuxueli 2017-10-17 20:28:11
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.FIELD)

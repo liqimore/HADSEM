@@ -17,7 +17,6 @@ import java.util.Set;
 /**
  * jsoup tool
  *
- * @author xuxueli 2015-05-14 22:44:43
  */
 public class JsoupUtil {
     private static Logger logger = LoggerFactory.getLogger(JsoupUtil.class);
